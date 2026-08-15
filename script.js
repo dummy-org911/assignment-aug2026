@@ -73,7 +73,8 @@ function startsWithCapital(str) {
 // 13. Repeat String
 function repeatString(str) {
     //first commit
-    return '';
+
+    return str+str;
 }
 
 // 14. Swap Case (Baseline Reference)
