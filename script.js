@@ -73,9 +73,7 @@ function startsWithCapital(str) {
 // 13. Repeat String
 function repeatString(str) {
     // TODO: Write code to repeat the string twice (2x)
-    //commiting to development4
-    
-    return '';
+    return str+str;
 }
 
 // 14. Swap Case (Baseline Reference)
