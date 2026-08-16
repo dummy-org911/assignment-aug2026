@@ -7,7 +7,7 @@ function reverseString(str) {
 // 2. Convert to Uppercase
 function toUppercase(str) {
     // TODO: Write code to convert the string to uppercase
-    return '';
+    return str.toUpperCase();
 }
 
 // 3. Check Palindrome
