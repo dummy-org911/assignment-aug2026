@@ -43,8 +43,7 @@ function countVowels(str) {
 
 // 8. Remove All Spaces
 function removeSpaces(str) {
-    // TODO: Write code to remove all spaces from the string
-    return '';
+    return str.replaceAll(' ','');
 }
 
 // 9. Count Consonants
