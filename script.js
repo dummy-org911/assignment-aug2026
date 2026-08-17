@@ -62,7 +62,7 @@ function getFirstAndLastChar(str) {
 
     console.log("First character:", firstChar);
     console.log("Last character:", lastChar);
-    return '';
+    return[firstChar, lastChar];
 }
 
 // 11. Convert to Lowercase
