@@ -19,7 +19,9 @@ function isPalindrome(str) {
 // 4. Count Words
 function countWords(str) {
     // TODO: Write code to count total words in the string
-    return 0;
+    if (str.trim() === "") return 0;
+    
+    return str.trim().split(" ").length;
 }
 
 // 5. Count Total Characters
