@@ -84,8 +84,8 @@ function toLowercase(str) {
 
 // 12. Check If Starts With Capital Letter
 function startsWithCapital(str) {
-  // TODO: Write code to check if first character is uppercase (e.g. return 'Yes' or 'No')
-  return "";
+    // TODO: Write code to check if first character is uppercase (e.g. return 'Yes' or 'No')
+    return (str[0] == str[0].toUpperCase());
 }
 
 // 13. Repeat String
