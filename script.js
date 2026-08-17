@@ -1,9 +1,6 @@
 // 1. Reverse String
 function reverseString(str) {
 
-  // TODO: Write code to reverse the string
-  return "";
-
     // TODO: Write code to reverse the string
 
     return str.split('').reverse().join('');;
