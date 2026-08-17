@@ -55,7 +55,10 @@ function countConsonants(str) {
 // 10. Get First and Last Character
 function getFirstAndLastChar(str) {
     // TODO: Write code to return first and last character of the string
-    return '';
+    let firstChar = str[0];
+    let lastChar = str[str.length - 1];
+
+    return[firstChar, lastChar];
 }
 
 // 11. Convert to Lowercase
