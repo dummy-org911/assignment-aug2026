@@ -31,7 +31,7 @@ function countCharacters(str) {
 // 6. Capitalize Each Word
 function capitalizeWords(str) {
     // TODO: Write code to capitalize the first letter of each word
-    return '';
+    return str.toUpperCase();
 }
 
 // 7. Count Vowels
