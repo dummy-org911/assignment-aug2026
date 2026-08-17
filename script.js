@@ -19,7 +19,9 @@ function isPalindrome(str) {
 // 4. Count Words
 function countWords(str) {
     // TODO: Write code to count total words in the string
-    return 0;
+    if (str.trim() === "") return 0;
+    
+    return str.trim().split(" ").length;
 }
 
 // 5. Count Total Characters
@@ -36,8 +38,26 @@ function capitalizeWords(str) {
 
 // 7. Count Vowels
 function countVowels(str) {
-    // TODO: Write code to count vowels (a, e, i, o, u)
-    return 0;
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        if (
+            str[i] === 'a' ||
+            str[i] === 'e' ||
+            str[i] === 'i' ||
+            str[i] === 'o' ||
+            str[i] === 'u' ||
+            str[i] === 'A' ||
+            str[i] === 'E' ||
+            str[i] === 'I' ||
+            str[i] === 'O' ||
+            str[i] === 'U'
+        ) {
+            count++;
+        }
+    }
+
+    return count;
 }
 
 // 8. Remove All Spaces
