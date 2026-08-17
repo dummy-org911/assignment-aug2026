@@ -7,7 +7,7 @@ function reverseString(str) {
 // 2. Convert to Uppercase
 function toUppercase(str) {
     // TODO: Write code to convert the string to uppercase
-    return '';
+    return str.toUpperCase();
 }
 
 // 3. Check Palindrome
@@ -25,7 +25,7 @@ function countWords(str) {
 // 5. Count Total Characters
 function countCharacters(str) {
     // TODO: Write code to return the total number of characters
-    return 0;
+    return str.replace(/\s/g, "").length;
 }
 
 // 6. Capitalize Each Word
