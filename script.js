@@ -71,9 +71,9 @@ function startsWithCapital(str) {
 }
 
 // 13. Repeat String
-function repeatString(str) {
+function repeatString(string) {
     // TODO: Write code to repeat the string twice (2x)
-    return str+str;
+    return string + string;
 }
 
 // 14. Swap Case (Baseline Reference)
