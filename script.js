@@ -27,6 +27,8 @@ function countWords(str) {
 
 // 5. Count Total Characters
 function countCharacters(str) {
+    // TODO: Write code to return the total number of characters
+    return str.replace(/\s/g, "").length;
   // TODO: Write code to return the total number of characters
   return 0;
 }
@@ -57,6 +59,14 @@ function countConsonants(str) {
 
 // 10. Get First and Last Character
 function getFirstAndLastChar(str) {
+    // TODO: Write code to return first and last character of the string
+    let firstChar = str[0];
+    let lastChar = str[str.length - 1];   
+
+    return[firstChar, lastChar];
+}
+
+// 11. Convert to Lowercase.
   // TODO: Write code to return first and last character of the string
   return "";
 }
