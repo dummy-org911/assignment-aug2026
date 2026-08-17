@@ -13,7 +13,8 @@ function toUppercase(str) {
 // 3. Check Palindrome
 function isPalindrome(str) {
     // TODO: Write code to check if string is a palindrome (e.g. return 'Yes' or 'No')
-    return '';
+    str=str.toLowerCase().replaceAll(" ", "");
+    return str===str.split("").reverse().join("") ? 'Yes' : 'No';
 }
 
 // 4. Count Words
@@ -42,8 +43,7 @@ function countVowels(str) {
 
 // 8. Remove All Spaces
 function removeSpaces(str) {
-    // TODO: Write code to remove all spaces from the string
-    return '';
+    return str.replaceAll(' ','');
 }
 
 // 9. Count Consonants
