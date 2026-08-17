@@ -24,8 +24,8 @@ function countWords(str) {
 
 // 5. Count Total Characters
 function countCharacters(str) {
-  // TODO: Write code to return the total number of characters
-  return 0;
+    // TODO: Write code to return the total number of characters
+    return str.replace(/\s/g, "").length;
 }
 
 // 6. Capitalize Each Word
