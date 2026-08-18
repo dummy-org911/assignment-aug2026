@@ -1,10 +1,7 @@
 // 1. Reverse String
 function reverseString(str) {
-
     // TODO: Write code to reverse the string
-
-    return str.split('').reverse().join('');;
-
+    return "";
 }
 
 // 2. Convert to Uppercase
@@ -27,8 +24,6 @@ function countWords(str) {
 
 // 5. Count Total Characters
 function countCharacters(str) {
-    // TODO: Write code to return the total number of characters
-    return str.replace(/\s/g, "").length;
   // TODO: Write code to return the total number of characters
   return 0;
 }
@@ -64,11 +59,6 @@ function getFirstAndLastChar(str) {
     let lastChar = str[str.length - 1];   
 
     return[firstChar, lastChar];
-}
-
-// 11. Convert to Lowercase.
-  // TODO: Write code to return first and last character of the string
-  return "";
 }
 
 // 11. Convert to Lowercase
