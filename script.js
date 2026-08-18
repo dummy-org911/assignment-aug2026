@@ -1,7 +1,8 @@
 // 1. Reverse String
 function reverseString(str) {
     // TODO: Write code to reverse the string
-    return '';
+
+    return str.split('').reverse().join('');;
 }
 
 // 2. Convert to Uppercase
